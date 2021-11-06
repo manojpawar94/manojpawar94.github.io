@@ -14,6 +14,39 @@
     margin-bottom: 16px;
 }
 
+.no-padding {
+    padding: 0px !important;
+}
+
+#TableOfContents ul {
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#TableOfContents ul li {
+    border-bottom: 1px #ccc dashed;
+}
+
+#TableOfContents ul li a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(107, 107, 107);
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+#TableOfContents ul li:last-child {
+    border-bottom: none;
+}
+
+ul.list-group {
+    border: none !important;
+}
+
 .tag-btn {
     padding: .2rem .4rem !important;
     margin-bottom: .2rem !important;
