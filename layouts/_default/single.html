@@ -2,11 +2,11 @@
 {{- partial "title-banner.html" . -}}
 <div class="row">
     <div class="col-sm-2">
-        <aside>
+        <aside aria-label="sidebar">
             <ul>
                 {{ $currentPage := . }}
-                {{ range .Site.Menus.main }}
-                
+                {{ range .Pages }}
+                    <li>Ram Krushna</li>
                 {{ end }}
             </ul>
         </aside>
