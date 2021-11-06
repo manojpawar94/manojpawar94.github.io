@@ -1,0 +1,130 @@
+<!doctype html><html lang=en><head>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<link href=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css rel=stylesheet integrity=sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC crossorigin=anonymous>
+<link rel=stylesheet type=text/css href=/css/theme.css>
+<title>Go Programming Hub | Introduction to Go Language</title>
+</head><body>
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow bg-body rounded">
+<div class=container-fluid>
+<a class=navbar-brand href=/>Go Programming Hub</a>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarTogglerDemo02 aria-controls=navbarTogglerDemo02 aria-expanded=false aria-label="Toggle navigation">
+<span class=navbar-toggler-icon></span>
+</button>
+<div class="collapse navbar-collapse" id=navbarTogglerDemo02>
+<div class="navbar-nav me-auto mb-2 mb-lg-0"></div>
+<ul class="navbar-nav me-2">
+<li class=nav-item>
+<a class=nav-link href=/>
+<i data-feather=home></i>
+Home
+</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/go-lang/>
+<i data-feather=go-lang></i>
+GoLang
+</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/about/>
+<i data-feather=about></i>
+About
+</a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=/go-lang/>
+Go Language
+</a>
+</li>
+</ul>
+</div>
+</div>
+</nav><div class=container-fluid>
+<div id=content><div class=row>
+<div class="col-sm-12 banner center">
+<h3>Introduction to Go Language</h3>
+</div>
+</div><div class=row>
+<div class=col-sm-2>
+<aside>
+<ul>
+</ul>
+</aside>
+</div>
+<div class=col-sm-8>
+<div class="card mb-2">
+<article class=card-body>
+<p class="card-subtitle mb-3 text-muted"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-calendar-check" viewBox="0 0 16 16"><path d="M10.854 7.146a.5.5.0 010 .708l-3 3a.5.5.0 01-.708.0l-1.5-1.5a.5.5.0 11.708-.708L7.5 9.793l2.646-2.647a.5.5.0 01.708.0z"/><path d="M3.5.0a.5.5.0 01.5.5V1h8V.5a.5.5.0 011 0V1h1a2 2 0 012 2v11a2 2 0 01-2 2H2a2 2 0 01-2-2V3a2 2 0 012-2h1V.5a.5.5.0 01.5-.5zM1 4v10a1 1 0 001 1h12a1 1 0 001-1V4H1z"/></svg>
+<time datetime=2021-10-26>Oct 26, 2021</time><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-grip-vertical" viewBox="0 0 16 16"><path d="M7 2A1 1 0 115 2a1 1 0 012 0zm3 0A1 1 0 118 2a1 1 0 012 0zM7 5A1 1 0 115 5a1 1 0 012 0zm3 0A1 1 0 118 5a1 1 0 012 0zM7 8A1 1 0 115 8a1 1 0 012 0zm3 0A1 1 0 118 8a1 1 0 012 0zm-3 3a1 1 0 11-2 0 1 1 0 012 0zm3 0a1 1 0 11-2 0 1 1 0 012 0zm-3 3a1 1 0 11-2 0 1 1 0 012 0zm3 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-pencil-square" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5.0 010 .706L14.459 3.69l-2-2L13.502.646a.5.5.0 01.707.0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5.0 00-.121.196l-.805 2.414a.25.25.0 00.316.316l2.414-.805a.5.5.0 00.196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5.0 002.5 15h11a1.5 1.5.0 001.5-1.5v-6a.5.5.0 00-1 0v6a.5.5.0 01-.5.5h-11a.5.5.0 01-.5-.5v-11a.5.5.0 01.5-.5H9a.5.5.0 000-1H2.5A1.5 1.5.0 001 2.5v11z"/></svg>
+Manoj Pawar<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-grip-vertical" viewBox="0 0 16 16"><path d="M7 2A1 1 0 115 2a1 1 0 012 0zm3 0A1 1 0 118 2a1 1 0 012 0zM7 5A1 1 0 115 5a1 1 0 012 0zm3 0A1 1 0 118 5a1 1 0 012 0zM7 8A1 1 0 115 8a1 1 0 012 0zm3 0A1 1 0 118 8a1 1 0 012 0zm-3 3a1 1 0 11-2 0 1 1 0 012 0zm3 0a1 1 0 11-2 0 1 1 0 012 0zm-3 3a1 1 0 11-2 0 1 1 0 012 0zm3 0a1 1 0 11-2 0 1 1 0 012 0z"/></svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-badge-wc" viewBox="0 0 16 16"><path d="M10.348 7.643c0-1.112.488-1.754 1.318-1.754.682.0 1.139.47 1.187 1.108H14v-.11c-.053-1.187-1.024-2-2.342-2-1.604.0-2.518 1.05-2.518 2.751v.747c0 1.7.905 2.73 2.518 2.73 1.314.0 2.285-.792 2.342-1.939v-.114h-1.147c-.048.615-.497 1.05-1.187 1.05-.839.0-1.318-.62-1.318-1.727v-.742zM4.457 11l1.02-4.184h.045L6.542 11h1.006L9 5.001H7.818l-.82 4.355h-.056L5.97 5.001h-.94l-.972 4.355h-.053l-.827-4.355H2L3.452 11h1.005z"/><path d="M14 3a1 1 0 011 1v8a1 1 0 01-1 1H2a1 1 0 01-1-1V4a1 1 0 011-1h12zM2 2A2 2 0 000 4v8a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2H2z"/></svg>
+315 Words</p>
+<p>Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software and makes programmers more productive.</p>
+<p>Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It&rsquo;s a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.</p>
+<h4 id=go-can-be-used-for>Go can be used for,</h4>
+<ul>
+<li>Go can be used for a variety of software development purposes.</li>
+<li>Cloud and network services</li>
+<li>With a broad ecosystem of tools and APIs on major cloud providers, it is easier than ever to develop services using Go.</li>
+<li>Command-line interfaces</li>
+<li>With popular open-source packages and a robust standard library, use Go to create fast and elegant CLIs.</li>
+<li>Web development</li>
+<li>With enhanced memory management and support for several IDEs, Go power fast and scalable web applications.</li>
+<li>DevOps and site reliability</li>
+<li>With the least build time and lean syntax, an automatic formatter, and a doc generator, Go supports DevOps and SRE.</li>
+</ul>
+<h4 id=real-world-products-developed-using-go>Real-world products developed using Go.</h4>
+<p>Below are the few popular products developed using Go.</p>
+<ul>
+<li>Google developed Kubernetes</li>
+<li>Docker, the world-famous containerization platform</li>
+<li>Dropbox has migrated its performance-critical components from Python to Go</li>
+<li>Netflix Application data caching using SSD&rsquo;s</li>
+<li>Uber GPU-power analytics engine in Go</li>
+<li>Wildlife studio builds backend system in Go</li>
+<li>Infoblox&rsquo;s next-generation networking products</li>
+</ul>
+<h4 id=go-installation>Go Installation</h4>
+<p>It is easy to install the Go on your personal laptop/desktop in just a three-step process.</p>
+<ol>
+<li>Download the Go installer file from the below URL,
+<a class="btn btn-primary btn-sm" href=https://golang.org/doc/install>Install Go</a></li>
+<li>Double click on the downloaded installer will open an installation popup window and follow the instructions</li>
+<li>Verify that you have installed the Go by opening a command prompt(CMD) and type the following command
+<code>go version</code></li>
+</ol>
+</article>
+<div class="row mb-2">
+<div class=col-sm-6>
+</div>
+<div class="col-sm-6 text-end">
+<a class="btn btn-primary btn-sm next" href=https://goprogramminghub.com/go-lang/02-helloworld/>
+Next: Hello World<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-chevron-right" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4.646 1.646a.5.5.0 01.708.0l6 6a.5.5.0 010 .708l-6 6a.5.5.0 01-.708-.708L10.293 8 4.646 2.354a.5.5.0 010-.708z"/></svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class=col-sm-2>
+<aside id=meta>
+<h6>Tags</h6>
+<hr>
+<a class="btn btn-sm btn-outline-dark tag-btn">Go</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoLang</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoTutorial</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoLangTutorial</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoProgramming</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoLangProgramming</a>
+<a class="btn btn-sm btn-outline-dark tag-btn">GoFundamental</a>
+</aside>
+</div>
+</div>
+</div><footer>
+<div class="row copyright-footer">
+<div class=col-sm-12>
+<p>Copyright &copy GoProgrammingHub.com</p>
+</div>
+</div>
+</footer></div>
+<script src=https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js integrity=sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM crossorigin=anonymous></script></body>
+</html>
