@@ -6,11 +6,11 @@ author = "Manoj Pawar"
 tags= ["about", "about-us", "about-manojpawar"]
 +++
 
-### Hi there, Myself Manoj Pawar &#128522; 
+# Hi there, Myself Manoj Pawar &#128522; 
 
 ---
 
-#### 💻  FullStack Developer
+## 💻  FullStack Developer
 ![Go Badge](https://img.shields.io/badge/-Go-blue?style=flat&logo=go&logoColor=ffffff)
 ![Java Badge](https://img.shields.io/badge/-Java-eed718?style=flat&logo=java&logoColor=ffffff)
 ![SpringBoot Badge](https://img.shields.io/badge/-SpringBoot-4DB33D?style=flat&logo=spring&logoColor=FFFFFF)
@@ -28,7 +28,7 @@ tags= ["about", "about-us", "about-manojpawar"]
 
 ---
 
-#### Let's Catch-up
+## Let's Catch-up
 
  [![Github Badge](https://img.shields.io/badge/-Github-232323?style=flat-square&logo=Github&logoColor=white&link=https://github.com/manojpawar94)](https://github.com/manojpawar94)
  [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/manoj-pawar-172597b3)](https://www.linkedin.com/in/manoj-pawar-172597b3/)
@@ -41,7 +41,7 @@ tags= ["about", "about-us", "about-manojpawar"]
 
 ---
 
-#### &#128279; Professional Summary 
+## &#128279; Professional Summary 
   
 - Having 5.6 years of experience in Java Technology.
 - Excellent Java development skills using Spring-Boot, JPA, J2SE, RMI, Multithreading, JDBC.
@@ -55,7 +55,7 @@ tags= ["about", "about-us", "about-manojpawar"]
 
 ---
 
-#### &#128188; Experience
+## &#128188; Experience
 
 I- currently working as a Senior Software Analyst in Citigroup, Pune from April 2020.
 - Worked as a Senior Software Developer in Virtusa Corporation, Chennai from June 2017 to April 2020.
@@ -78,7 +78,7 @@ I- currently working as a Senior Software Analyst in Citigroup, Pune from April 
 ---
 
 
-#### &#128194; Project Experience
+## &#128194; Project Experience
 
 <dl>
   <dt><h3>&#9989; Senior Software Analyst, Citigroup</h3></dt>
@@ -203,7 +203,7 @@ I- currently working as a Senior Software Analyst in Citigroup, Pune from April 
 
 ---  
 
-#### &#127941; Achievements & Certifications
+## &#127941; Achievements & Certifications
 
  - Received the STELLAR Award from Virtusa for exemplary performance and contribution in Q3 FY2019
  - Completed the certification on “Introduction to Data Science using python” by the University of Michigan and Coursera in Oct 2019
