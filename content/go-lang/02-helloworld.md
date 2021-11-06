@@ -5,7 +5,7 @@ date: 2021-10-26T23:11:13Z
 aliases: ["about-us","about-goprogramminghub","contact"]
 tags: ["Go", "GoLang","GoTutorial","GoLangTutorial","GoProgramming","GoLangProgramming","GoFundamental"]
 author: "Manoj Pawar"
-draft: true
+draft: false
 ---
 
 Let's discuss the Go Program structure using the hello world program.
