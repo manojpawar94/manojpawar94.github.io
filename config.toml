@@ -10,18 +10,12 @@ sectionPagesMenu = 'main'
     pre = "home"
     url = "/"
     weight = 1
-  
-  [[menu.main]]
-    name = "GoLang"
-    pre = "go-lang"
-    url = "/go-lang/"
-    weight = 2
     
   [[menu.main]]
     name = "About"
     pre = "about"
     url = "/about/"
-    weight = 3
+    weight = 2
 
 
 [markup]

@@ -2,8 +2,8 @@
 title = "About"
 description = "Go Programming Hub"
 date = "2019-02-28"
-aliases = ["about-us","about-goprogramminghub","contact"]
 author = "Manoj Pawar"
+tags= ["about", "about-us", "about-manojpawar"]
 +++
 
 ### Hi there, Myself Manoj Pawar &#128522; 

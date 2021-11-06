@@ -2,10 +2,8 @@
 title: "Introduction to Go Language"
 description: "Go Programming Hub"
 date: 2021-10-26T23:11:13Z
-aliases: ["about-us","about-goprogramminghub","contact"]
 tags: ["Go", "GoLang","GoTutorial","GoLangTutorial","GoProgramming","GoLangProgramming","GoFundamental"]
 author: "Manoj Pawar"
-draft: false
 ---
 
 Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software and makes programmers more productive.
