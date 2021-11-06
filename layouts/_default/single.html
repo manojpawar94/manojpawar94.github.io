@@ -1,13 +1,13 @@
 {{ define "main" }}
 {{- partial "title-banner.html" . -}}
 <div class="row">
-    <div class="col-sm-2">
-        <aside aria-label="sidebar">
-            <ul>
-                {{ $currentPage := . }}
-                {{ range .Pages }}
-                    <li>Ram Krushna</li>
-                {{ end }}
+    <div class="col-sm-2 no-padding">
+        <aside aria-label="sidebar1">
+            <ul class="list-group">
+                {{range .Site.RegularPages}}
+                <li class="list-group-item list-group-item-action"><a class="nav-link"
+                        href="{{.Permalink}}">{{.Title}}</a></li>
+                {{end}}
             </ul>
         </aside>
     </div>
@@ -44,7 +44,12 @@
         </div>
     </div>
     <div class="col-sm-2">
-        <aside id="meta">
+        <aside aria-label="sidebar2">
+            <h6>
+                Table Of Content
+            </h6>
+            <hr>
+            <p>{{ .TableOfContents }}</p>
             <h6>Tags</h6>
             <hr>
             {{ with .Params.tags }}

@@ -1,17 +1,19 @@
 ---
 title: "Introduction to Go Language"
+sequence: 1
 description: "Go Programming Hub"
 date: 2021-10-26T23:11:13Z
 tags: ["Go", "GoLang","GoTutorial","GoLangTutorial","GoProgramming","GoLangProgramming","GoFundamental"]
 author: "Manoj Pawar"
 ---
+## Introduction
 
 Go is an open-source programming language that makes it easy to build simple, reliable, and efficient software and makes programmers more productive.
 
 Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines, while its novel type system enables flexible and modular program construction. Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection. It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.
 
 
-#### Go can be used for,
+## Go can be used for,
 - Go can be used for a variety of software development purposes.
 - Cloud and network services
 - With a broad ecosystem of tools and APIs on major cloud providers, it is easier than ever to develop services using Go.
@@ -22,7 +24,7 @@ Go is expressive, concise, clean, and efficient. Its concurrency mechanisms make
 - DevOps and site reliability
 - With the least build time and lean syntax, an automatic formatter, and a doc generator, Go supports DevOps and SRE.
 	
-#### Real-world products developed using Go.
+## Real-world products developed using Go.
 Below are the few popular products developed using Go.
 - Google developed Kubernetes
 - Docker, the world-famous containerization platform
@@ -32,7 +34,7 @@ Below are the few popular products developed using Go.
 - Wildlife studio builds backend system in Go 
 - Infoblox's next-generation networking products
 
-#### Go Installation
+## Go Installation
 It is easy to install the Go on your personal laptop/desktop in just a three-step process. 
 1. Download the Go installer file from the below URL,
 <a class="btn btn-primary btn-sm" href="https://golang.org/doc/install">Install Go</a>
