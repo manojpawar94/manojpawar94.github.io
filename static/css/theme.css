@@ -1,0 +1,28 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.banner {
+    padding-left: 16px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    background: #caddff;
+    margin-bottom: 16px;
+}
+
+.tag-btn {
+    padding: .2rem .4rem !important;
+    margin-bottom: .2rem !important;
+    font-size: 0.75rem !important;
+    border-radius: 1rem !important;
+}
+
+.copyright-footer {
+    text-align: center;
+    background: #f8f9fa!important;
+    padding-top: 1rem;
+}

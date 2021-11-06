@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{{- partial "head.html" . -}}
+
+<body>
+
+    {{- partial "header.html" . -}}
+    <div class="container-fluid">
+        <div id="content">
+            {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+    </div>
+    
+    {{- partial "script.html" . -}}
+</body>
+
+</html>

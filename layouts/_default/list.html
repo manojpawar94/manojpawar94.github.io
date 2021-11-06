@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{- partial "title-banner.html" . -}}
+<div class="container mb-2">
+    <div class="row">
+        {{ range .Pages.ByPublishDate.Reverse }}
+        <div class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ .Title }}</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">
+                        {{ partial "metadata.html" . }}
+                    </h6>
+                    <p class="card-text text-truncate">{{ .Summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="btn btn-primary btn-sm">Read More</a>
+                </div>
+            </div>
+        </div>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
