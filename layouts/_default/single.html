@@ -4,7 +4,7 @@
     <div class="col-sm-2 no-padding">
         <aside aria-label="sidebar1">
             <ul class="list-group">
-                {{range .Site.RegularPages}}
+                {{range .Site.RegularPages.ByParam "postId"}}
                 <li class="list-group-item list-group-item-action"><a class="nav-link"
                         href="{{.Permalink}}">{{.Title}}</a></li>
                 {{end}}

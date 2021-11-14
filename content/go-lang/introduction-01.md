@@ -1,6 +1,7 @@
 ---
+postId: 1
 title: "Introduction to Go Language"
-sequence: 1
+shortTitle : "Introduction"
 description: "Go Programming Hub"
 date: 2021-10-26T23:11:13Z
 tags: ["Go", "GoLang","GoTutorial","GoLangTutorial","GoProgramming","GoLangProgramming","GoFundamental"]

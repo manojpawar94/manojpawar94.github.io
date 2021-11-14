@@ -57,7 +57,7 @@ tags= ["about", "about-us", "about-manojpawar"]
 
 ## &#128188; Experience
 
-I- currently working as a Senior Software Analyst in Citigroup, Pune from April 2020.
+- currently working as a Senior Software Analyst in Citigroup, Pune from April 2020.
 - Worked as a Senior Software Developer in Virtusa Corporation, Chennai from June 2017 to April 2020.
 - Worked as a Software Developer in Atoconn, Thane from June 2016 to June 2017. 
 
